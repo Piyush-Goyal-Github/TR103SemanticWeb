@@ -8,8 +8,8 @@ This project demonstrates the use of semantic HTML and CSS to create a well-stru
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Contributing](#contributing)
-7. [<a href="https://github.com/Piyush-Goyal-Github/TR103SemanticWeb/blob/main/LICENSE">License<a>](#license)
-8. <a href="http://127.0.0.1:5500/Display/index.html" target=_blank>Watch Live</a>
+7. [<a href="https://github.com/Piyush-Goyal-Github/TR103SemanticWeb/blob/main/LICENSE" target="_blank">License<a>](#license)
+8. <a href="http://127.0.0.1:5500/Display/index.html" target="_blank">Watch Live</a>
 
 ## Introduction
 Semantic HTML refers to the use of HTML5 elements that clearly describe their meaning in a human- and machine-readable way. This project leverages these semantic elements to improve the overall structure and accessibility of the web page. 
