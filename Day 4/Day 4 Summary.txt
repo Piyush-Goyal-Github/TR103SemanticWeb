@@ -1,0 +1,50 @@
+Day 4 Summary
+
+Relationships in Data and Web
+Example: Swiggy
+Ordering: One person orders food.
+Cooking: Another person cooks the food without knowing the person who ordered.
+Delivery: A third person delivers the food without knowing the cook or the customer.
+Relationships: All three have interconnected roles but do not directly interact.
+RDF (Resource Description Framework)
+Purpose: Represents interconnected data on the web using a graph structure (triples).
+Triple: Consists of a subject, predicate, and object.
+Subject: The resource or concept.
+Predicate: A property or attribute of the subject.
+Object: The value of the predicate.
+Use: Describes and exchanges metadata, integrates data from multiple sources.
+Importance: Fast and efficient for data representation and exchange.
+Types of Data Representation
+Document Relationship
+People
+Concepts
+Data Objects
+Metadata Exchange
+Purpose: To exchange data with users and the internet.
+User Behavior: Different metadata for each page to personalize user experience based on search history.
+Semantic Metadata
+Describes the meanings of values and names of data components for human and programmatic use.
+Homework Topics
+Linked Data: Core of the Semantic Web, links datasets understandable to both humans and machines.
+FOAF (Friend of a Friend): RDF vocabulary for describing people, activities, and relationships.
+Data Formats: JSON and XML
+JSON (JavaScript Object Notation)
+Readability: More readable and concise.
+Data Types: Supports strings, numbers, arrays, objects, booleans, and null.
+Structure: Compact key/value pairs.
+Usage: Common in web APIs and configuration files.
+XML (eXtensible Markup Language)
+Readability: More verbose due to nested elements.
+Data Types: Represented as text, interpreted for types.
+Structure: Nested elements.
+Usage: Document formats, configuration files, complex data representation.
+Practical Tasks
+Create a Website:
+
+Use semantic tags like <header>.
+Replace <div> with appropriate section tags.
+Include syntax of RDF for metadata.
+JSON and XML:
+
+Task 1: Create a JSON structure.
+Task 2: Create an XML structure.

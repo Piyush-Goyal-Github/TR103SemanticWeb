@@ -1,0 +1,18 @@
+Day 9 Summary 
+
+Using JSON or XML in Web Applications
+Formats for Data Exchange
+JSON (JavaScript Object Notation) and XML (eXtensible Markup Language) are both formats commonly used for data exchange in web applications.
+Incorporating JSON or XML Data
+Methods: Use techniques to incorporate JSON or XML data into applications:
+AJAX (Asynchronous JavaScript and XML): Enables asynchronous data retrieval without reloading the entire page.
+Fetch API: Modern approach to making network requests, particularly useful for fetching JSON data asynchronously.
+Postman for API Testing
+Postman: Tool used for testing and developing APIs by sending requests and inspecting responses. It helps developers interact with APIs more efficiently.
+Fetching and Displaying Data
+Fetching Data: Use JavaScript to fetch JSON or XML data from a server or API endpoint.
+Displaying Data: Once fetched, display specific information (e.g., names, details) on a webpage dynamically.
+Tasks
+Task 1: Implement a scenario involving the usage of JSON or XML data in a web application.
+Task 2 (JSON): Specifically focus on tasks related to handling JSON data, such as parsing, manipulating, or displaying it dynamically on a webpage.
+These tasks will help reinforce your understanding and practical application of JSON and XML in web development.

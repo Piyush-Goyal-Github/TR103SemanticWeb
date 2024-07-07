@@ -1,0 +1,37 @@
+Day 2 Summary
+
+Class and ID in CSS
+Types of CSS:
+Inline: Within the HTML tag.
+External: In a separate file.
+Internal: Inside the HTML file.
+Why Different Types?
+Coding Standards: Different practices for different scenarios.
+Speed and Performance: External CSS improves load times due to caching, while inline and internal can slow down page load.
+Browser Caching:
+First Time: Slower as files are downloaded.
+Subsequent Loads: Faster due to cached data.
+Usage of Internal CSS:
+Can use the same class or ID in rare cases.
+Often used with jQuery or JavaScript.
+ID in CSS:
+Defined in style.css.
+Prefixed with #.
+Example: Color specified in hexadecimal code.
+Class in CSS:
+Example: Used to set the heading color.
+Classes can be reused multiple times across elements.
+ID vs Class:
+ID: Unique, used for a single element.
+Class: Reusable across multiple elements.
+Division of Page using CSS:
+Float: Moves elements left or right with force.
+Div Structure:
+Container: Defines the width of the website, typically 1170px.
+Parent Container: Houses rows and columns.
+Header: Placed inside the parent container.
+Using Comments:
+Use link rel to define relationships between files.
+Dividing Content:
+Use floats to arrange content boxes.
+Example: Task1, Task2, Task3.

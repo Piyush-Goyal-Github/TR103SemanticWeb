@@ -1,0 +1,147 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "Vehicles"@en;
+                                        dc:description "Transport system Ontology."@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 8 ###
+#  --------------------------- Property 0------------------------- 
+:drivewheelconfiguration rdf:type owl:ObjectProperty ;
+                         rdfs:label "drivewheelconfiguration"@en; 
+                         rdfs:domain :DriveWheel;
+                         rdfs:range :Car . 
+#  --------------------------- Property 1------------------------- 
+:SteeringWheelPosition rdf:type owl:ObjectProperty ;
+                       rdfs:label "SteeringWheelPosition"@en; 
+                       rdfs:domain :SteeringWheel;
+                       rdfs:range :Car . 
+#  --------------------------- Property 2------------------------- 
+:FuelType rdf:type owl:ObjectProperty ;
+          rdfs:label "FuelType"@en; 
+          rdfs:domain :Fuel;
+          rdfs:range :Car . 
+#  --------------------------- Property 3------------------------- 
+:UseType rdf:type owl:ObjectProperty ;
+         rdfs:label "UseType"@en; 
+         rdfs:domain :Type;
+         rdfs:range :Car . 
+#  --------------------------- Property 4------------------------- 
+:color rdf:type owl:DatatypeProperty ;
+       rdfs:label "color"@en; 
+       rdfs:domain :Car;
+       rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+:gears rdf:type owl:DatatypeProperty ;
+       rdfs:label "gears"@en; 
+       rdfs:domain :Car;
+       rdfs:range xsd:integer . 
+#  --------------------------- Property 6------------------------- 
+:seatingCapacity rdf:type owl:DatatypeProperty ;
+                 rdfs:label "seatingCapacity"@en; 
+                 rdfs:domain :Car;
+                 rdfs:range xsd:integer . 
+#  --------------------------- Property 7------------------------- 
+:NoOfOwners rdf:type owl:DatatypeProperty ;
+            rdfs:label "NoOfOwners"@en; 
+            rdfs:domain :Car;
+            rdfs:range xsd:integer . 
+###  Class Definitions (Number of Classes) 23 ###
+#  --------------------------- Class  0------------------------- 
+:Vehicle rdf:type owl:Class; 
+         rdfs:label "Vehicle"@en . 
+#  --------------------------- Class  1------------------------- 
+:Car rdf:type owl:Class; 
+     rdfs:subClassOf :Vehicle ;
+     rdfs:label "Car"@en . 
+#  --------------------------- Class  2------------------------- 
+: rdf:type owl:Class; 
+  rdfs:subClassOf :Vehicle ;
+  rdfs:label "Motorbike"@en . 
+#  --------------------------- Class  3------------------------- 
+:Airplane rdf:type owl:Class; 
+          rdfs:subClassOf :Vehicle ;
+          rdfs:label "Airplane"@en . 
+#  --------------------------- Class  4------------------------- 
+:Bus rdf:type owl:Class; 
+     rdfs:subClassOf :Vehicle ;
+     rdfs:label "Bus"@en . 
+#  --------------------------- Class  5------------------------- 
+:Train rdf:type owl:Class; 
+       rdfs:subClassOf :Vehicle ;
+       rdfs:label "Train"@en . 
+#  --------------------------- Class  6------------------------- 
+:DriveWheel rdf:type owl:Class; 
+            rdfs:label "DriveWheel"@en . 
+#  --------------------------- Class  7------------------------- 
+:AWD rdf:type owl:Class; 
+     rdfs:subClassOf :DriveWheel ;
+     rdfs:label "AWD"@en . 
+#  --------------------------- Class  8------------------------- 
+:FWD rdf:type owl:Class; 
+     rdfs:subClassOf :DriveWheel ;
+     rdfs:label "FWD"@en . 
+#  --------------------------- Class  9------------------------- 
+:RWD rdf:type owl:Class; 
+     rdfs:subClassOf :DriveWheel ;
+     rdfs:label "RWD"@en . 
+#  --------------------------- Class  10------------------------- 
+:SteeringWheel rdf:type owl:Class; 
+               rdfs:label "SteeringWheel"@en . 
+#  --------------------------- Class  11------------------------- 
+:LHD rdf:type owl:Class; 
+     rdfs:subClassOf :SteeringWheel ;
+     rdfs:label "LHD"@en . 
+#  --------------------------- Class  12------------------------- 
+:RHD rdf:type owl:Class; 
+     rdfs:subClassOf :SteeringWheel ;
+     rdfs:label "RHD"@en . 
+#  --------------------------- Class  13------------------------- 
+:Fuel rdf:type owl:Class; 
+      rdfs:label "Fuel"@en . 
+#  --------------------------- Class  14------------------------- 
+:Petrol rdf:type owl:Class; 
+        rdfs:subClassOf :Fuel ;
+        rdfs:label "Petrol"@en . 
+#  --------------------------- Class  15------------------------- 
+:Electric rdf:type owl:Class; 
+          rdfs:subClassOf :Fuel ;
+          rdfs:label "Electric"@en . 
+#  --------------------------- Class  16------------------------- 
+:Diesel rdf:type owl:Class; 
+        rdfs:subClassOf :Fuel ;
+        rdfs:label "Diesel"@en . 
+#  --------------------------- Class  17------------------------- 
+:Hybrid rdf:type owl:Class; 
+        rdfs:subClassOf :Fuel ;
+        rdfs:label "Hybrid"@en . 
+#  --------------------------- Class  18------------------------- 
+:Type rdf:type owl:Class; 
+      rdfs:label "Type"@en . 
+#  --------------------------- Class  19------------------------- 
+:Private rdf:type owl:Class; 
+         rdfs:subClassOf :Type ;
+         rdfs:label "Private"@en . 
+#  --------------------------- Class  20------------------------- 
+:Taxi rdf:type owl:Class; 
+      rdfs:subClassOf :Type ;
+      rdfs:label "Taxi"@en . 
+#  --------------------------- Class  21------------------------- 
+:Company rdf:type owl:Class; 
+         rdfs:subClassOf :Type ;
+         rdfs:label "Company"@en . 
+#  --------------------------- Class  22------------------------- 
+:DrivingSchool rdf:type owl:Class; 
+               rdfs:subClassOf :Type ;
+               rdfs:label "DrivingSchool"@en . 

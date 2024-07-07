@@ -1,0 +1,55 @@
+Day 3 Summary
+
+Navigation Bar
+How to Create a Navigation Bar:
+Use lists (<ul>, <li>) instead of just anchor tags for better structure.
+Steps to Make a Nav Bar:
+Define a Class: User-defined class for styling.
+Use <li> and <a> Tags: Place anchor tags inside list items.
+CSS Properties for Nav Bar:
+css
+Copy code
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+Text and Box Model
+Margin and Padding:
+Margin: Space between elements.
+Padding: Space inside elements, around the text.
+Specified in clockwise order: Top, Right, Bottom, Left (TRBL).
+Box Model:
+Considers margin, border, padding, and content.
+Fluid Model:
+Adjusts automatically to screen size.
+Center content within a container.
+Layout Design
+Steps to Make a Layout:
+Top Bar: Include contact information.
+Header:
+Left side: Logo.
+Right side: Social media icons.
+Content Section:
+Photo Text Semantic Web: Centered text within a container.
+Two-Column Row:
+Background: Grey.
+Right: Image.
+Left: Text.
+Additional Rows:
+Row with changes (Row3).
+Row with 3 boxes containing images and text (Row4).
+Footer:
+Four sections:
+Logo.
+Navigation links.
+About Us.
+Contact Us.
+Include copyright information.
+Positioning in CSS
+Relative: Position relative to its normal position.
+Fixed: Stays in place when the page is scrolled.
+Home Task
+Create a dropdown menu using positioning in CSS:
+Relative.
+Fixed.

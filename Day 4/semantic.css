@@ -1,0 +1,259 @@
+.body{
+    background-color:azure;
+}
+.header{
+    width: 1270px;
+    height: 100px;
+    justify-content: center;
+}
+.items{
+    width: 50px;
+    height: auto;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.items ul{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.items ul li a{
+    flex-direction: row;
+    text-align: left;
+    display: flex;
+    color:darkgrey;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+.items ul li p a{
+    color:black;
+}
+.items ul button{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    align-items: right;
+    background-color: azure;
+    color: black;
+    margin-left: 600px;
+}
+.items ul button:hover{
+    background-color: aqua;
+}
+.block{
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.travel{
+    margin-left: 40px;
+    width: 635px;
+}
+.travel h1,h4{
+    margin: auto;
+    width: 100%;
+}
+.travel button{
+    background-color: black;
+    color:white;
+    border-style: solid;
+}
+.travel button:hover{
+    background-color:aqua;
+}
+.photo {
+    width: 635px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+.blackia{
+    background-color: black;
+    height: 300px;
+}
+.blackia h2{
+    color:white;
+    margin: auto;
+    text-align: center;
+}
+.blackia h4{
+    color: white;
+    text-align: center;
+}
+.blackia button{
+    background-color: black;
+    color: white;
+    border: solid;
+    margin-left: 570px;
+    width: 130px;
+    height: 30px;
+}
+.blackia button:hover{
+    background-color: aqua;
+}
+.combine{
+    display: flex;
+    width: auto;
+    height: 700px;
+}
+.plane{
+    text-align: center;
+    width: auto;
+    height: 250px;
+    margin: auto;
+}
+.plane h1{
+    font-weight: bold;
+}
+.plane h1 a{
+    text-decoration: underline;
+}
+.arrow{
+    display: flex;
+}
+.two h3{
+    display: flex;
+    text-decoration: underline;
+}
+.two h1{
+    margin-left: 800px;
+    font-size: 50px;
+}
+.two h2:hover{
+    background-color: aqua;
+}
+.both{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 500px;
+    padding-block: 30px;
+}
+.choose{
+    margin-left: 70px;
+}
+.person{
+    padding-block: 50px;
+    margin-right: 50px;
+}
+.white{
+    display: flex;
+    width: auto;
+    height: 600px;
+    padding: 100px;
+}
+.lorem{
+    margin: 0px;
+}
+.sit{
+    margin-left: 200px;
+    padding-block: 100px;
+}
+.lorem p a{
+    margin-left: 170px;
+}
+.here{
+    text-align: center;
+}
+.template{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+    width: auto;
+    height: auto;
+}
+.scroll img{
+    justify-content: space-between;
+    border-radius: 100px;
+}
+.left-arrow,
+.right-arrow
+{
+    font-weight: bold;
+}
+.update{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+}
+.form-container{
+    width: 50%;
+    padding: 20px;
+}
+.form-container .up1, 
+.form-container .up2, 
+.form-container .up3, 
+.form-container .up4 {
+    margin-bottom: 10px;
+    width: 50%;
+    border-color: black;
+    border: solid;
+}
+.form-container textarea {
+    height: 100px;
+}
+.form-container input,textarea{
+    width: 100%;
+    padding: 10px;
+}
+.form-container button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 15px;
+    font-size: 12px;
+    width: 50%;
+    margin-top: 30px;
+}
+.form-container button:hover{
+    background-color: aqua;
+}
+.date{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+}
+.date img{
+    width: 70%;
+}
+.footer{
+    background-color: gray;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+}
+.footer h6{
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    margin: auto;
+    margin-left: 200px;
+    padding: 10px;
+    width: 70%;
+}
+.links td{
+    padding: 20px;
+    margin: auto;
+}
+.links a{
+    color: black;
+    
+}
+

@@ -1,0 +1,25 @@
+Day 7 Summary
+
+Tools (Extensions) to Enhance Websites
+W3Validator
+Function: Checks the validity of web documents against W3C standards.
+Axe DevTools
+Function: Accessibility testing tool that helps identify and resolve accessibility issues.
+Wave
+Function: Web accessibility evaluation tool providing visual feedback on web content accessibility.
+Checking Font Information
+WhatFont
+Function: Browser extension that identifies fonts used on web pages.
+Hex Code of Colors
+ColorZilla
+Function: Browser extension to pick colors from web pages and get their hex codes.
+Identifying Technologies Used on Websites
+Wappalyzer
+Function: Browser extension that identifies technologies like frameworks, analytics tools, and content management systems used on websites.
+Key Takeaways
+Web Document Validation: Use W3Validator to ensure compliance with W3C standards.
+Accessibility Testing: Axe DevTools and Wave assist in ensuring web content is accessible.
+Font Identification: WhatFont helps in identifying fonts used on web pages.
+Color Hex Codes: ColorZilla allows picking colors and retrieving their hex codes.
+Technology Identification: Wappalyzer identifies technologies powering websites, aiding in understanding their tech stack.
+These tools collectively help in improving web development practices, accessibility compliance, and design consistency across web projects.

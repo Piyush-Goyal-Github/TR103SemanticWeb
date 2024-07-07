@@ -1,0 +1,21 @@
+.navbar{
+    width: 1400px;
+    height: 50px;
+    background-color: aqua;
+    float: center;
+}
+.navbar ul {
+    background-color: aqua;
+    list-style-type: none;
+}
+.navbar ul li a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+}
+.navbar ul li a:hover{
+    background-color:black;
+    color:aqua;                   
+}

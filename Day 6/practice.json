@@ -1,0 +1,337 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://schema.org",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2003/01/geo/wgs84_pos",
+      "http://purl.org/dc/terms",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://xmlns.com/foaf/0.1",
+      "http://www.w3.org/2000/10/swap/pim/contact",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "wot": "http://xmlns.com/wot/0.1/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dc": "http://purl.org/dc/elements/1.1/",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "vs": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
+      "foaf": "http://xmlns.com/foaf/0.1/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title": {
+      "undefined": "Friend of a Friend (FOAF) vocabulary"
+    },
+    "iri": "http://xmlns.com/foaf/0.1/",
+    "description": "Making a web ontology.",
+    "other": {
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Friend of a Friend (FOAF) vocabulary",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.68",
+      "translation": [
+        311.05,
+        179.13
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class67",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class71",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class55",
+      "iri": "http://xmlns.com/foaf/0.1/IMS",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "IMS",
+      "pos": [
+        543.61,
+        138.54
+      ]
+    },
+    {
+      "id": "Class58",
+      "iri": "http://xmlns.com/foaf/0.1/Supplier",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Supplier",
+      "pos": [
+        352.21,
+        -177.54
+      ]
+    },
+    {
+      "id": "Class66",
+      "iri": "http://xmlns.com/foaf/0.1/Address",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Address",
+      "pos": [
+        860.17,
+        48.01
+      ]
+    },
+    {
+      "id": "Class67",
+      "iri": "http://xmlns.com/foaf/0.1/Ingredients",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Ingredients",
+      "pos": [
+        804.43,
+        286.89
+      ]
+    },
+    {
+      "id": "Class68",
+      "iri": "http://xmlns.com/foaf/0.1/Customer",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Customer",
+      "pos": [
+        301.96,
+        369.4
+      ]
+    },
+    {
+      "id": "Class69",
+      "iri": "http://xmlns.com/foaf/0.1/Distribution_Inc.",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Distribution Inc.",
+      "pos": [
+        673.98,
+        -177.58
+      ]
+    },
+    {
+      "id": "Class70",
+      "iri": "http://xmlns.com/foaf/0.1/Selling_Point",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Selling Point",
+      "pos": [
+        566.91,
+        396.58
+      ]
+    },
+    {
+      "id": "Class71",
+      "iri": "http://xmlns.com/foaf/0.1/Data_Source",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "Data Source",
+      "pos": [
+        147.84,
+        21.36
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty83",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty85",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty86",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty87",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty88",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty89",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "objectProperty90",
+      "type": "owl:someValuesFrom"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty83",
+      "iri": "http://xmlns.com/foaf/0.1/supplies",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "supplies",
+      "domain": "Class58",
+      "range": "Class55",
+      "pos": [
+        447.91,
+        -19.5
+      ]
+    },
+    {
+      "id": "objectProperty85",
+      "iri": "http://xmlns.com/foaf/0.1/sourced_from",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "sourced from",
+      "domain": "Class71",
+      "range": "Class55",
+      "pos": [
+        345.72,
+        79.95
+      ]
+    },
+    {
+      "id": "objectProperty86",
+      "iri": "http://xmlns.com/foaf/0.1/type",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "type",
+      "domain": "Class55",
+      "range": "Class68",
+      "pos": [
+        422.78,
+        253.97
+      ]
+    },
+    {
+      "id": "objectProperty87",
+      "iri": "http://xmlns.com/foaf/0.1/delivery_target_",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "delivery target ",
+      "domain": "Class69",
+      "range": "Class55",
+      "pos": [
+        608.79,
+        -19.52
+      ]
+    },
+    {
+      "id": "objectProperty88",
+      "iri": "http://xmlns.com/foaf/0.1/address",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "address",
+      "domain": "Class66",
+      "range": "Class55",
+      "pos": [
+        701.89,
+        93.28
+      ]
+    },
+    {
+      "id": "objectProperty89",
+      "iri": "http://xmlns.com/foaf/0.1/in_product_bought_by",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "in product bought by",
+      "domain": "Class55",
+      "range": "Class67",
+      "pos": [
+        674.02,
+        212.72
+      ]
+    },
+    {
+      "id": "objectProperty90",
+      "iri": "http://xmlns.com/foaf/0.1/located_at",
+      "baseIri": "http://xmlns.com/foaf/0.1/",
+      "label": "located at",
+      "domain": "Class55",
+      "range": "Class70",
+      "pos": [
+        555.26,
+        267.56
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+Day 1 Summary
+
+What is Semantic Web?
+Semantic: Describes the processes a computer follows when executing a program in a specific language.
+
+Web Semantic: A web capable of describing things in a way that computers can understand. It enriches the web with machine-interpretable metadata, allowing computer programs to derive new information predictably.
+
+Importance of Semantic HTML
+Header: Instead of using a div with id=header, use the <header> tag for better performance and clarity.
+Sidebar: Use the <aside> tag.
+Footer: Use the <footer> tag.
+Section: Avoid using div for sections. Using semantic tags improves speed and performance without refreshing the whole page.
+Key Concepts
+Blockchain: A decentralized form of data management, often associated with Web 3.0.
+Authentication: Utilizes end-to-end encryption for secure data access.
+Technologies
+JWT (JSON Web Tokens): Used for securely sharing data without server availability.
+Dynamic Websites: Only load the necessary content instead of refreshing the entire page.
+Applications
+POS (Point of Sale): Systems installed in places like Decathlon increase speed and efficiency in transactions.
+
+SEO (Search Engine Optimization): Optimizes a website's technical setup, content relevance, and link popularity to improve search engine rankings and user findability.

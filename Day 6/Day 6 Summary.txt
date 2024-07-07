@@ -1,0 +1,41 @@
+Day 6 Summary
+
+RDF (Resource Description Framework)
+Definition: A standard for data interchange on the web, allowing structured data to be shared and reused across applications.
+Non-Functional Requirements (NFR)
+Criteria: Focus on the operation of a system, such as security, performance, and reliability.
+Functional Requirements
+Specific Features: Include hardware specifications (e.g., RAM, processor) and software needs to meet user requirements.
+Web 3.0 Focus
+Security: Protecting data and resources from unauthorized access.
+Performance: Ensuring fast response times and efficient processing.
+Reliability: Maintaining consistent performance and availability.
+Enhancing Web Pages for Google Search
+Google PageSpeed Insights: Analyzes webpage performance and provides a score:
+Green: Pass
+Orange: Okay
+Red: Needs Improvement
+Image Formats:
+.webp: Reduces size and increases performance.
+.jpg: Alternative format for reducing size.
+KBs Save Fast Website Indexing: Smaller file sizes lead to faster indexing by search engines.
+Tools for Web Performance and Accessibility
+Lighthouse: A Google extension for auditing web pages.
+GTmetrix: Provides performance grading for websites.
+NVDA Screen Reader: Assists visually impaired users in interacting with web content.
+Wave, X (single line), W3Validator: Tools for web accessibility and validation.
+CDN (Content Delivery Network)
+Bootstrap and Tailwind: Use CDN links to enhance web development without downloading files.
+Use of Different Fonts
+Enhances the visual appeal and readability of a website.
+Task
+Upload Website: Implementing the learned techniques.
+Turtle Relationships: Use RDF format for expressing data.
+Add Features: Use extensions for additional functionalities like ad blockers.
+Key Takeaways
+Non-Functional Requirements: Emphasize security, performance, and reliability.
+PageSpeed Insights and Lighthouse: Use these tools to analyze and improve webpage performance.
+Image Optimization: Use .webp or .jpg formats to reduce file sizes and improve loading times.
+Accessibility and Validation: Utilize NVDA, Wave, and W3Validator to ensure web content is accessible and meets standards.
+CDN Usage: Incorporate Bootstrap and Tailwind via CDN for efficient development.
+Task: Upload the website and ensure it follows best practices for performance, accessibility, and usability.

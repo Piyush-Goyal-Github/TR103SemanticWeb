@@ -1,0 +1,913 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/newOntology/",
+    "title": "Vehicles",
+    "description": "Transport system Ontology."
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.29",
+      "translation": [
+        410.26,
+        198.64
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "NodeId30",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId31",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId32",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId33",
+      "type": "rdfs:Datatype"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class3",
+      "iri": "http://visualdataweb.org/newOntology/Vehicle",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Vehicle",
+      "pos": [
+        969.89,
+        62.78
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://visualdataweb.org/newOntology/Car",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Car",
+      "pos": [
+        493.24,
+        215.01
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://visualdataweb.org/newOntology/",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Motorbike",
+      "pos": [
+        1274.53,
+        278.37
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://visualdataweb.org/newOntology/Airplane",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Airplane",
+      "pos": [
+        1082.26,
+        -293.84
+      ]
+    },
+    {
+      "id": "Class7",
+      "iri": "http://visualdataweb.org/newOntology/Bus",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Bus",
+      "pos": [
+        1275.62,
+        -157.83
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://visualdataweb.org/newOntology/Train",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Train",
+      "pos": [
+        1346.65,
+        75.69
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://visualdataweb.org/newOntology/DriveWheel",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "DriveWheel",
+      "pos": [
+        92.42,
+        -64.02
+      ]
+    },
+    {
+      "id": "Class10",
+      "iri": "http://visualdataweb.org/newOntology/AWD",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "AWD",
+      "pos": [
+        -207.56,
+        -284.49
+      ]
+    },
+    {
+      "id": "Class11",
+      "iri": "http://visualdataweb.org/newOntology/FWD",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "FWD",
+      "pos": [
+        -0.34,
+        -425.67
+      ]
+    },
+    {
+      "id": "Class14",
+      "iri": "http://visualdataweb.org/newOntology/RWD",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "RWD",
+      "pos": [
+        -281.55,
+        -50.72
+      ]
+    },
+    {
+      "id": "Class16",
+      "iri": "http://visualdataweb.org/newOntology/SteeringWheel",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "SteeringWheel",
+      "pos": [
+        552.93,
+        -242.87
+      ]
+    },
+    {
+      "id": "Class17",
+      "iri": "http://visualdataweb.org/newOntology/LHD",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "LHD",
+      "pos": [
+        714.31,
+        -574.06
+      ]
+    },
+    {
+      "id": "Class18",
+      "iri": "http://visualdataweb.org/newOntology/RHD",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "RHD",
+      "pos": [
+        453.62,
+        -598.18
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://visualdataweb.org/newOntology/Fuel",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Fuel",
+      "pos": [
+        111.26,
+        561.44
+      ]
+    },
+    {
+      "id": "Class20",
+      "iri": "http://visualdataweb.org/newOntology/Petrol",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Petrol",
+      "pos": [
+        -243.79,
+        694.11
+      ]
+    },
+    {
+      "id": "Class21",
+      "iri": "http://visualdataweb.org/newOntology/Electric",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Electric",
+      "pos": [
+        -79.13,
+        891.86
+      ]
+    },
+    {
+      "id": "Class22",
+      "iri": "http://visualdataweb.org/newOntology/Diesel",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Diesel",
+      "pos": [
+        -257.06,
+        482.59
+      ]
+    },
+    {
+      "id": "Class24",
+      "iri": "http://visualdataweb.org/newOntology/Hybrid",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Hybrid",
+      "pos": [
+        141.77,
+        938.86
+      ]
+    },
+    {
+      "id": "Class25",
+      "iri": "http://visualdataweb.org/newOntology/Type",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Type",
+      "pos": [
+        740.42,
+        669.27
+      ]
+    },
+    {
+      "id": "Class26",
+      "iri": "http://visualdataweb.org/newOntology/Private",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Private",
+      "pos": [
+        612.89,
+        1024.21
+      ]
+    },
+    {
+      "id": "Class27",
+      "iri": "http://visualdataweb.org/newOntology/Taxi",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Taxi",
+      "pos": [
+        1113.87,
+        710.84
+      ]
+    },
+    {
+      "id": "Class28",
+      "iri": "http://visualdataweb.org/newOntology/Company",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Company",
+      "pos": [
+        1033.16,
+        910.47
+      ]
+    },
+    {
+      "id": "Class29",
+      "iri": "http://visualdataweb.org/newOntology/DrivingSchool",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "DrivingSchool",
+      "pos": [
+        838.91,
+        1036.47
+      ]
+    },
+    {
+      "id": "NodeId30",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        402.83,
+        -35.81
+      ]
+    },
+    {
+      "id": "NodeId31",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        723.34,
+        292.65
+      ]
+    },
+    {
+      "id": "NodeId32",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        246.1,
+        224.75
+      ]
+    },
+    {
+      "id": "NodeId33",
+      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        452.43,
+        477.34
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty8",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty13",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty15",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty17",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "datatypeProperty23",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty24",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty25",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty26",
+      "type": "owl:DatatypeProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty1",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class4",
+      "range": "Class3",
+      "pos": [
+        731.57,
+        138.9
+      ]
+    },
+    {
+      "id": "objectProperty2",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty2",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class5",
+      "range": "Class3",
+      "pos": [
+        1122.21,
+        170.57
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty3",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class6",
+      "range": "Class3",
+      "pos": [
+        1026.07,
+        -115.53
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty4",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class7",
+      "range": "Class3",
+      "pos": [
+        1122.75,
+        -47.53
+      ]
+    },
+    {
+      "id": "objectProperty5",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty5",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class3",
+      "pos": [
+        1158.27,
+        69.23
+      ]
+    },
+    {
+      "id": "objectProperty6",
+      "iri": "http://visualdataweb.org/newOntology/drivewheelconfiguration",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "drivewheelconfiguration",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class9",
+      "range": "Class4",
+      "pos": [
+        292.83,
+        75.49
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty7",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class10",
+      "range": "Class9",
+      "pos": [
+        -57.57,
+        -174.26
+      ]
+    },
+    {
+      "id": "objectProperty8",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty8",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class11",
+      "range": "Class9",
+      "pos": [
+        46.04,
+        -244.85
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty9",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class14",
+      "range": "Class9",
+      "pos": [
+        -94.57,
+        -57.37
+      ]
+    },
+    {
+      "id": "objectProperty10",
+      "iri": "http://visualdataweb.org/newOntology/SteeringWheelPosition",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "SteeringWheelPosition",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class16",
+      "range": "Class4",
+      "pos": [
+        523.08,
+        -13.93
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty11",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class17",
+      "range": "Class16",
+      "pos": [
+        633.62,
+        -408.46
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty12",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class16",
+      "pos": [
+        503.28,
+        -420.52
+      ]
+    },
+    {
+      "id": "objectProperty13",
+      "iri": "http://visualdataweb.org/newOntology/FuelType",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "FuelType",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class19",
+      "range": "Class4",
+      "pos": [
+        302.25,
+        388.23
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty14",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class22",
+      "range": "Class19",
+      "pos": [
+        -72.9,
+        522.02
+      ]
+    },
+    {
+      "id": "objectProperty15",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty15",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class21",
+      "range": "Class19",
+      "pos": [
+        16.06,
+        726.65
+      ]
+    },
+    {
+      "id": "objectProperty16",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty16",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class20",
+      "range": "Class19",
+      "pos": [
+        -66.27,
+        627.77
+      ]
+    },
+    {
+      "id": "objectProperty17",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty17",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class24",
+      "range": "Class19",
+      "pos": [
+        126.51,
+        750.15
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://visualdataweb.org/newOntology/UseType",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "UseType",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class25",
+      "range": "Class4",
+      "pos": [
+        616.83,
+        442.14
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty19",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class26",
+      "range": "Class25",
+      "pos": [
+        676.65,
+        846.74
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty20",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class27",
+      "range": "Class25",
+      "pos": [
+        927.15,
+        690.05
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty21",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class28",
+      "range": "Class25",
+      "pos": [
+        886.79,
+        789.87
+      ]
+    },
+    {
+      "id": "objectProperty22",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty22",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class29",
+      "range": "Class25",
+      "pos": [
+        789.66,
+        852.87
+      ]
+    },
+    {
+      "id": "datatypeProperty23",
+      "iri": "http://visualdataweb.org/newOntology/color",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "color",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class4",
+      "range": "NodeId30",
+      "pos": [
+        441.36,
+        71.08
+      ]
+    },
+    {
+      "id": "datatypeProperty24",
+      "iri": "http://visualdataweb.org/newOntology/gears",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "gears",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class4",
+      "range": "NodeId31",
+      "pos": [
+        617.73,
+        257.02
+      ]
+    },
+    {
+      "id": "datatypeProperty25",
+      "iri": "http://visualdataweb.org/newOntology/seatingCapacity",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "seatingCapacity",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class4",
+      "range": "NodeId32",
+      "pos": [
+        358.94,
+        220.3
+      ]
+    },
+    {
+      "id": "datatypeProperty26",
+      "iri": "http://visualdataweb.org/newOntology/NoOfOwners",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "NoOfOwners",
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "Class4",
+      "range": "NodeId33",
+      "pos": [
+        469.77,
+        365.88
+      ]
+    }
+  ]
+}

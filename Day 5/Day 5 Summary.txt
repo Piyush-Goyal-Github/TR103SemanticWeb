@@ -1,0 +1,43 @@
+Day 5 Summary
+
+Web Evolution and Data Representation
+Web Versions:
+Web 1.0: Static websites with non-interactive content.
+Web 2.0: Interactive web with user-generated content.
+Web 3.0: Semantic web where all data is interconnected and accessible.
+Example:
+CHATGPT: An AI model that understands and generates text based on input.
+URLs and URIs
+URL (Uniform Resource Locator): Identifies a specific resource on the web.
+URI (Uniform Resource Identifier): A broader category that includes URLs and URNs.
+URN (Uniform Resource Name): Identifies resources by name rather than location.
+IRI (International Resource Identifier): Extends URIs to support international characters.
+Examples:
+ISBN/ISSN: Identifiers for books or serials, not web addresses but URNs.
+RDF (Resource Description Framework)
+Purpose: Describes resources and relationships on the web.
+Literals: Basic values or data in RDF, such as strings or numbers.
+Formats:
+TURTLE 🐢: An RDF serialization format.
+JSON-LD, N3: Other RDF serialization formats.
+Differences Between WWW and the Internet
+WWW (World Wide Web): A collection of web pages.
+Internet: The underlying network hosting websites.
+Example:
+TikTok: Hosted globally but may have regional restrictions, like being disabled in certain countries.
+URL Prefixes and Standardization
+Prefixes: Standardized namespaces for URLs, important for linking and identifying resources accurately.
+Data Interchange Formats
+JSON: JavaScript Object Notation, used for data interchange.
+XML: eXtensible Markup Language, used for document and data interchange.
+Turtle: Terse RDF Triple Language, a serialization format for RDF.
+Additional Concepts
+Rewrite Engine: Used to rewrite URLs, often specified in .htaccess files.
+.htaccess: Configuration file for web server directives.
+Mendeley: Reference manager and academic social network.
+Key Takeaways
+Web Development: Understanding the evolution of the web helps in designing better applications.
+Data Representation: Using RDF and understanding different serialization formats is crucial for data interoperability.
+URL and URI: Knowing the difference between URLs, URIs, URNs, and IRIs is important for resource identification.
+WWW vs. Internet: Distinguishing between these helps in understanding the scope and functionality of web applications.
+Tools and Formats: Familiarity with tools like Mendeley and formats like JSON, XML, and Turtle enhances data management and integration skills.

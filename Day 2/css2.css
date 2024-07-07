@@ -1,0 +1,100 @@
+.container{
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;  
+}
+.container .header{
+    width: 1160px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+.container .row1{
+    width: 1160px;
+    height: 100px;
+}
+.container .row1 .content1 {
+    width: 290px;
+    height: 100px;
+    background-color:aquamarine;
+    float: left;
+}
+.container .row1 .content2 {
+    width: 290px;
+    height: 100px;
+    background-color: antiquewhite;
+    float: left;
+}
+.container .row1 .content3 {
+    width: 290px;
+    height: 100px;
+    background-color:blue;
+    float: left;
+}
+.container .row1 .content4{
+    width: 290px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+.container .content5{
+    width: 290px;
+    height: 100px;
+    background-color:brown;
+    float: left;
+}
+.container .content6{
+    width: 290px;
+    height: 100px;
+    background-color:blueviolet;
+    float: left;
+}
+.container .content7{
+    width: 580px;
+    height: 100px;
+    background-color:chartreuse;
+    float: left;
+}
+.container .content8{
+    width: 580px;
+    height: 100px;
+    background-color:hotpink;
+    float: left;
+}
+.container .content9{
+    width: 290px;
+    height: 100px;
+    background-color:darkgoldenrod;
+    float: left;
+}
+.container .content10{
+    width: 290px;
+    height: 100px;
+    background-color:darkslateblue;
+    float: left;
+}
+.container .content11{
+    width: 290px;
+    height: 100px;
+    background-color:ghostwhite;
+    float: left;
+}
+.container .content12{
+    width: 580px;
+    height: 100px;
+    background-color:indianred;
+    float: left;
+}
+.container .content13{
+    width: 290px;
+    height: 100px;
+    background-color:mediumpurple;
+    float: left;
+}
+.container .footer{
+    width: 1160px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+}
+

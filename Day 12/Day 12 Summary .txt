@@ -1,0 +1,30 @@
+Day 12 Summary 
+
+Software Development and Methodologies
+Feasibility Study: Assessment of the practicality and potential success of a proposed project.
+Reliability: The degree to which a software system performs its intended functions without failure.
+KLOC (Kilo Lines of Code): Measure of software program size based on lines of code, in thousands.
+Agile Methodology: Iterative approach focusing on collaboration, customer feedback, and rapid releases.
+Tools and Technologies
+Version Control Systems (VCS): Tools like Git manage changes to source code over time.
+Markdown Files (.md): Plain text files formatted with Markdown syntax for readability.
+HTML (HyperText Markup Language): Standard language for creating web pages and applications.
+Front-end Frameworks
+Bootstrap: Popular framework for responsive, mobile-first web development using HTML, CSS, and JS.
+Tailwind CSS: Utility-first CSS framework for building custom designs directly in markup.
+JavaScript: Programming language for dynamic and interactive web effects.
+Semantic Web and Search
+Google Semantic Search: Enhances search accuracy by understanding the meaning of queries.
+DOM (Document Object Model): API representing web document structures as object trees.
+Back-end Frameworks and Platforms
+React: JavaScript library for building user interfaces, especially single-page applications.
+Next.js: React framework for server-side rendered and static web applications.
+Laravel: PHP framework with elegant syntax for web application development.
+Node.js: JavaScript runtime for building fast, scalable server-side applications.
+MySQL: Open-source relational database management system.
+Firebase: Google platform for mobile and web apps with real-time database, authentication, and hosting.
+CodeIgniter: Lightweight PHP framework for quick development of dynamic web apps.
+AI and Data Science
+Generative AI: AI that creates new content (text, images, music) based on training data.
+Confusion Matrix: Table evaluating classification model performance by comparing actual vs. predicted values.
+This summary provides a concise overview of key terms in software development, frameworks, methodologies, and related technologies. 

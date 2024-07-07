@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color:#f4d03f;
+}
+
+.navbar {
+    width: 1160px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    padding: auto;
+}
+
+.menu ul li a {
+    text-align: right;
+    color: black;
+    padding: 15px 20px;
+    display:flex;
+    font-size: 17px;
+}
+
+.menu ul li a:hover {
+    background-color: black;
+    color:#d4efdf;
+}
+
+.express-delivery {
+    text-align: right;
+}
+
+.content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left {
+    color: black;
+    padding-right: 50px;
+}
+
+.left h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.left p {
+    font-size: 20px;
+    margin:auto;
+}
+
+.left h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: auto;
+    text-align: auto;
+}
+
+.left button {
+    background-color: #f4d03f;
+    padding: 10px ;
+    font-size: 20px;
+    display: flex;
+}
+
+.left button:hover {
+    background-color:#d4efdf;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.right img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 1000px;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 35px;
+    margin: auto;
+}
+
+.footer h3{
+    font-size: 35px;
+    margin: auto;
+}
+
+.footer p {
+    font-size: 15px;
+    margin:auto;
+    color:black;
+}
+
+.three-dishes {
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    width: 300px;
+    float: center; 
+    padding:10px;
+    flex-direction: column;
+}
+
+.three-dishes img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+
+.three-dishes p{
+    font-size: small;
+    color: black;
+    float:auto;
+  }
+  
+.three-dishes-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.slides {
+    position: relative;
+    max-width: 100px;
+    margin: auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+.slideshow {
+    display: flex;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.slideshow img {
+    width: 100%;
+    gap: 100px;
+    flex-direction: column;
+}
+.dots {
+    text-align: center;
+    padding: 10px ;
+}
+.grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.grid-item {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservation {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.reservation h2 {
+    font-size: 30px;
+    color:#ccc;
+    margin-bottom: 10px;
+}
+
+.reservation h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group button {
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    border:auto;
+}
+
+form button {
+    background-color:#ffb700;
+    color: #000;
+    border:#000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color:teal;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-section h2 {
+    font-size: 25px;
+    color: #ffcc00;
+}
+
+.contact-section p {
+    font-size: 15px;
+    margin: auto ;
+}
+
+.social-icons a {
+    display:flex;
+    margin:auto;
+    color: #d4efdf;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    justify-content: center;
+    margin: 5px;
+    display: flex;
+    flex-direction:column;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}

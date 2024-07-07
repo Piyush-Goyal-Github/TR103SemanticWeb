@@ -1,0 +1,8 @@
+Forked Repository link:
+https://github.com/jaswanttaur/Semantic-Web-TR103/tree/main/Piyush_Goyal_Forked
+
+Step-1: Locate the GitHub account to be forked with.
+Step-2: Clone the repository.
+Step-3: Push the contents.
+Step-4: Generate Pull Requests.
+Step-5: Merge the necessary branches or things.

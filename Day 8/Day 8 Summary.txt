@@ -1,0 +1,16 @@
+Day 8 Summary
+
+Topics Covered
+Directory Structure: Understanding the organization and contents of project directories.
+index.html: Introduction to HTML file structure and its role in web development.
+json file link for postman.txt: Using text files to provide links and documentation in development projects.
+package-lock.json and package.json: Managing dependencies and project configuration in Node.js projects.
+server.js: Implementing backend logic and server setup in Node.js applications.
+Key Learning Points
+File Management: Uploading and managing essential files like HTML, JSON, and JavaScript for web development.
+Dependency Management: Importance of package.json and package-lock.json in Node.js projects for managing dependencies.
+Server-Side Logic: Introduction to server.js for implementing server-side functionality and handling requests.
+Practical Applications
+Project Setup: Setting up a basic web development environment with necessary files and configurations.
+File Uploads: Uploading files to facilitate development and deployment processes.
+Backend Development: Starting backend development with server.js for handling server logic and APIs.
