@@ -51,4 +51,4 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Piyush-Goyal-Github/TR103SemanticWeb/blob/main/LICENSE) file for details.
 
 ## Watch Live
-You can view the live demo of this project [here](http://127.0.0.1:5500/Display/index.html).
+You can view the live demo of this project [here](https://piyush-goyal-github.github.io/TR103SemanticWeb/Display/).
