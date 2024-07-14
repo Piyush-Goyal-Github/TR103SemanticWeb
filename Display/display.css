@@ -8,6 +8,7 @@ body {
 
 .container {
     width: 87%;
+    height: auto;
     max-width: 1170px;
     margin: 20px auto;
     padding: 20px;
